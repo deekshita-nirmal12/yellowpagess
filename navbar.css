@@ -1,0 +1,60 @@
+.brand-logo {
+    margin-left: 3vmin;
+    font-weight: bold;
+}
+
+nav {
+    height: 11vmin;
+    line-height: 11vmin;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.nav-wrapper {
+    background-color: #ffca00;
+    border-bottom: 0.3vmin solid black;
+}
+
+.menu-list li a {
+    color: rgb(0, 0, 0);
+}
+
+.active {
+    font-weight: bold;
+}
+
+.dropdown-content {
+    width: 30vmin !important;
+    height: auto !important;
+    color: black;
+}
+
+.dropdown-trigger i {
+    position: relative;
+    top: 0.9vmin;
+}
+
+.collapsible:active {
+    background: white;
+}
+
+.collapsible-header span {
+    font-size: 3.5vmin;
+    font-weight: 600;
+    margin-left: 4vmin;
+}
+
+.collapsible-body li span {
+    margin-left: 5vmin;
+}
+
+.collapsible-body ul li:first-of-type {
+    display: none;
+}
+
+@media only screen and (max-width: 414px) {
+    .brand-logo {
+        font-size: 10vmin;
+    }
+}
